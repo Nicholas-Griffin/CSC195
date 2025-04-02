@@ -1,13 +1,18 @@
 
-
+#include "Student.h"
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
+    Student student;
+    student.setName("Nicholas");
+    student.Write();
+    f();
     cout << "Hello, World!" << endl;
     cout << "Git is now tracking this project!" << endl;
     return 0;
-}
+};
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
