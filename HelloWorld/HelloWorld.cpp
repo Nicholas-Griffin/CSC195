@@ -3,14 +3,33 @@
 #include <iostream>
 using namespace std;
 
+class Person{
+public:
+    string name;
+    int age;
+
+    void f(){}
+};
+
 int main()
 {
     Student student;
     student.setName("Nicholas");
     student.Write();
     f();
-    cout << "Hello, World!" << endl;
-    cout << "Git is now tracking this project!" << endl;
+
+    Person person;
+    person.age = 18;
+
+    //char a = 00111;
+    //cout << a << endl;
+
+    unsigned int i = 78;
+    i += 10;
+    i -= 10;
+
+    cout << &i << endl;
+
     return 0;
 };
 
