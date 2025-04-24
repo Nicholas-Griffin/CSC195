@@ -3,7 +3,7 @@
 
 class Motorcycle : public Vehicle {
 public:
-	bool sideCarriage;
+	bool sideCarriage = false;
 
 	void Read(std::ostream& ostream, std::istream& istream) override;
 	void Write(std::ostream& ostream) override;

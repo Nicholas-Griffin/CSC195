@@ -11,7 +11,7 @@ public:
 	};
 
 	string name;
-	bool loud;
+	bool loud = false;
 
 	virtual void Read(std::ostream& ostream, std::istream& istream);
 	virtual void Write(std::ostream& ostream);
